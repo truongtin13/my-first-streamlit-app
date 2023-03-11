@@ -11,4 +11,5 @@ if st.button('Giải'):
       st.success('Phương trình vô nghiệm')
   else:
     result = (-b)/(2*a)
+    st.text('Hi')
     st.success('Phương trình có 1 nghiệm '+str(result))
