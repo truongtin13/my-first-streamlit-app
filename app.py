@@ -10,6 +10,6 @@ if st.button('Giải'):
     else:
       st.success('Phương trình vô nghiệm')
   else:
-    result = (-b)/(2*a)
-    st.text('Hi')
+    result = (-b)/(a)
+    st.header('Hi')
     st.success('Phương trình có 1 nghiệm '+str(result))
