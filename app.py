@@ -24,5 +24,5 @@ def check_password():
 if not check_password():
     st.stop() 
 
-normal()
+st.write('Hello')
 
