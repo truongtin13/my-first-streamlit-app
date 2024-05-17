@@ -1,7 +1,6 @@
 import hmac
 import streamlit as st
 
-password = "huutin0908200471"
 def check_password():
     def password_entered():
         if hmac.compare_digest(st.session_state["password"], st.secrets["password"]):
