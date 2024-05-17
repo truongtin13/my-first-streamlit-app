@@ -1,6 +1,5 @@
 import hmac
 import streamlit as st
-from normal import normal
 
 password = "huutin0908200471"
 def check_password():
@@ -24,5 +23,5 @@ def check_password():
 if not check_password():
     st.stop() 
 
-st.write('Hello')
+
 
